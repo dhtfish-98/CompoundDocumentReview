@@ -1,0 +1,87 @@
+{
+  "repository": "decalage2/olefile",
+  "commit": "7c0f1ce6f27311e03f25a997024846b58fa9826f",
+  "selected_full_files": [
+    {
+      "path": "olefile/olefile.py",
+      "bytes": 122759,
+      "lines": 2696,
+      "sha256": "17256b61ff3108dcc2ac3e6c6af8b61d359fa1c3ed647424be556331b892e93d",
+      "git_blob": "60f8963c19cb3b6f9b4ebfe570523f3951302d3f",
+      "full_read": true
+    },
+    {
+      "path": "olefile/__init__.py",
+      "bytes": 967,
+      "lines": 28,
+      "sha256": "719e959251c94a8332354270e733ff8638781bf1ec6a9f921902a0b055692456",
+      "git_blob": "72c91df7faaa7f71dbc1fca230f13b76b5ab7418",
+      "full_read": true
+    },
+    {
+      "path": "setup.py",
+      "bytes": 2725,
+      "lines": 88,
+      "sha256": "5d8bcca1b5ec05326799db56fcad155a7ec6e7962b228f6b6793d16572362dc0",
+      "git_blob": "09fa9333beff8bb4602f96e0799bb2b8f0e0eccb",
+      "full_read": true
+    },
+    {
+      "path": "setup.cfg",
+      "bytes": 120,
+      "lines": 8,
+      "sha256": "d22b4bc1e01b6dba0a0fa26d6a10c9bd7d0388b42d31859bf74a0c509517eb42",
+      "git_blob": "836b2c025c61cd6740338d4d4a921f64d943fb55",
+      "full_read": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 7943,
+      "lines": 145,
+      "sha256": "91dd023e9374594abad0ce6cebe67b969d9aaf36b1ed323a511502745b1659c4",
+      "git_blob": "f053489a47ea64e96360961fe7105efc07034a32",
+      "full_read": true
+    },
+    {
+      "path": "LICENSE.txt",
+      "bytes": 2846,
+      "lines": 56,
+      "sha256": "cf1498d5b834b3758a89d06d224a1502c54a28b3a852f46130b761deaa4890d1",
+      "git_blob": "5f53714a94bac986009e275ca0b79e06510a5456",
+      "full_read": true
+    },
+    {
+      "path": "make_dist.py",
+      "bytes": 551,
+      "lines": 13,
+      "sha256": "19cef1f6b34e532c456e14b3844fc9f9f46e219abefb5136a07bf4855770d9b6",
+      "git_blob": "2c1498bee2b4ab0ed7d5549ed412f8fb7e7db855",
+      "full_read": true
+    },
+    {
+      "path": "tests/test_olefile.py",
+      "bytes": 10930,
+      "lines": 280,
+      "sha256": "dfd5c9e86b67044f4996131580301e781a4e51f47355fd1c1795a68a8ccf6d99",
+      "git_blob": "7e6b12f9e1aea7059ab41c315138dc6bb12881c6",
+      "full_read": true
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "bytes": 1002,
+      "lines": 41,
+      "sha256": "ee83a78b074a848ac6fc460c8bba202496dad73604e4693e8862791290614b4d",
+      "git_blob": "2affb786a2a6ee3860255794141b965201faef33",
+      "full_read": true
+    },
+    {
+      "path": "doc/License.rst",
+      "bytes": 2880,
+      "lines": 62,
+      "sha256": "fbb8e7528b6f1c51d6a8e5bd0ce976069983310a83074fd8488b3698870f131a",
+      "git_blob": "6b2ecd80dfb8383b1b0af919de086f36c6642eda",
+      "full_read": true
+    }
+  ],
+  "excluded": "Full runtime module read for structural selected closure and excluded write/property/CLI paths; no full-repository audit, doc compiler/config, embedded OLEPS properties, Office metadata decoding or sample binary execution. Upstream tests fully reviewed but not executed; public tests are new synthetic CFB files."
+}
