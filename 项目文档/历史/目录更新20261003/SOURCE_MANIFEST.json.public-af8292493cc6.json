@@ -1,0 +1,150 @@
+{
+  "schema": 1,
+  "project": "CompoundDocumentReview",
+  "version": "0.1.2",
+  "implementation_author": "dhtfish98",
+  "self_excluded_to_avoid_recursive_hash": true,
+  "current_validation": "LICENSE_CLEANUP.json",
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "a69de2215580cf5f6e2df1f44d2019148c9d68e9fdb85f8855d3818047fd4f93",
+      "bytes": 1614
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "18d2a340ca81ebe5c6581482c4e7fe77f7e9dec26c5f20af826127ce1efa1788",
+      "bytes": 95
+    },
+    {
+      "path": "ATTRIBUTION_UPDATE.json",
+      "sha256": "4e1efc6e7e8e2e0fa128c244a15e85fe6ae95efd4bfb5ca64cd3f5f1780ac543",
+      "bytes": 1057
+    },
+    {
+      "path": "DEFENSIVE_SCOPE.md",
+      "sha256": "92d19b54777cb8d1442493d9fed1f0c2d5bcdfa3817d9a840c633270c9a0d6d2",
+      "bytes": 6022
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "52fdd18a16b6be33022852d4f39441398d0a514a6f723ed73d63f3a320f36eae",
+      "bytes": 1318
+    },
+    {
+      "path": "LICENSE_CLEANUP.json",
+      "sha256": "d7a86699bc27bdac87f26999ed82179f2a2422b0ad659688d19385fbae887df3",
+      "bytes": 799
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha256": "931bdbc8c136d8d6c8259189716d67938bd9c2dad5e1bbf11af2bda233cfded4",
+      "bytes": 429
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "37ad72294915ac37c26f072570840b73f4bde6dad997bfe4fe56249a8e15652f",
+      "bytes": 364
+    },
+    {
+      "path": "ORIGIN.md",
+      "sha256": "dd81a45cca18f25c9b65e9ceda822c98047af8c3ea81360bda414ec2259eb6e1",
+      "bytes": 2203
+    },
+    {
+      "path": "README.md",
+      "sha256": "6bdcc9ca01da8464a76f35363ec5c9d27fd156abe21c539f3c4364041858d040",
+      "bytes": 2988
+    },
+    {
+      "path": "SOURCE_AUDIT.json",
+      "sha256": "1714879425f7062a855b11a23c6fd1848cdebb0ca8aad18c2c7d5999cdc4e3c3",
+      "bytes": 3018
+    },
+    {
+      "path": "VALIDATION.md",
+      "sha256": "97df3f4470e4891dd0923503ba560e9c7a9feb1e2b8c5b7a58bab47bc36b9460",
+      "bytes": 6525
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "9a5e3113eb6e3dbc0925483bfe6cf98fe7fe881e3fd847401ed73e27f7a55137",
+      "bytes": 729
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256": "8bf0543e181a4e53135e4ea8dcb0acdd22a116c5c250b6ccf82cc036cfd805cd",
+      "bytes": 99
+    },
+    {
+      "path": "scripts/differential_check.py",
+      "sha256": "7547fbed6dec6cd26a8d81b69a6ddaa456995a0f61382e5639d167e295b2c892",
+      "bytes": 4996
+    },
+    {
+      "path": "scripts/installed_cli_check.py",
+      "sha256": "3b986ea10230cc0d91956e7a63c77deb4012a0968798ad3a465ab62299fb2293",
+      "bytes": 2902
+    },
+    {
+      "path": "scripts/verify_package.py",
+      "sha256": "8b0447bc7011aa03c024e4c04655ce4567be9bdac25fa18720ac837dab9f17dd",
+      "bytes": 6276
+    },
+    {
+      "path": "src/compound_document_review/__init__.py",
+      "sha256": "5d54a30fd41434f1bb03abc9da8b20d614edd7c8ec23b98d9dc0927955a5bd64",
+      "bytes": 130
+    },
+    {
+      "path": "src/compound_document_review/__main__.py",
+      "sha256": "935a1c1166b0c1ea35a82256345000bf2c73ded718d77773bc27a71ecce28f7d",
+      "bytes": 48
+    },
+    {
+      "path": "src/compound_document_review/cfb.py",
+      "sha256": "e5a2d58a84f1340b091308265c923da3254e99d100fceed68c329bd9aecb00cb",
+      "bytes": 28137
+    },
+    {
+      "path": "src/compound_document_review/cli.py",
+      "sha256": "e1c39ed469b67aa0ea6306f7470ba1d297b1f42552c3db5f0450629a51f4b301",
+      "bytes": 1193
+    },
+    {
+      "path": "src/compound_document_review/files.py",
+      "sha256": "04ec3899d866f17dcc095481caab340845c2b6efaeed993b982721cd6dd02cfb",
+      "bytes": 2806
+    },
+    {
+      "path": "src/compound_document_review/model.py",
+      "sha256": "c330ba2e1164dbfa952a27fa431085038aa8b9722c403d9ab5f06a0925b6fdfb",
+      "bytes": 1678
+    },
+    {
+      "path": "src/compound_document_review/py.typed",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "tests/fixtures.py",
+      "sha256": "b32fd151775871b159d3f419b475a2d95fabb041cb41e38df1bbe1f7ad99f006",
+      "bytes": 7537
+    },
+    {
+      "path": "tests/test_cfb.py",
+      "sha256": "f0797d554fd55f8e01c9d4f5d32fc05111383b7eaf9c1587e59e7d98ca6174ef",
+      "bytes": 25679
+    },
+    {
+      "path": "tests/test_io.py",
+      "sha256": "24a0b67e73a95100142a4c28f830a2507a5dece9c4b447e0b5b960141f1308db",
+      "bytes": 7164
+    },
+    {
+      "path": "tests/test_safe_read_capabilities.py",
+      "sha256": "0158c4d4453551c83ad9522dc85be22ea718422ad3767eb6af7a263e8a79fd6b",
+      "bytes": 6576
+    }
+  ]
+}

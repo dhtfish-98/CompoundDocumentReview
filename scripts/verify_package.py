@@ -1,5 +1,6 @@
 """Verify trusted locally built artifacts; no archive extraction or project execution."""
 
+from email import policy
 import argparse
 import base64
 import csv
@@ -41,7 +42,7 @@ def verify(root, installed=None):
                     base64.urlsafe_b64encode(hashlib.sha256(data).digest()).decode().rstrip("=")
                 )
                 assert expected == "sha256=" + encoded and len(data) == int(size), name
-        metadata = BytesParser().parsebytes(
+        metadata = BytesParser(policy=policy.default).parsebytes(
             archive.read(next(n for n in names if n.endswith(".dist-info/METADATA")))
         )
         assert metadata.get("Name") == config["project"]["name"]
@@ -127,6 +128,9 @@ def verify(root, installed=None):
                 )
                 or x.endswith(".egg-info")
                 for x in p.relative_to(root).parts
+            )
+            and not (
+                p.relative_to(root).parts[0] == "Build" and p.relative_to(root).parts[1] != "输入"
             )
             and p.name != ".gitignore"
         ]
