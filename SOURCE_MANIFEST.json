@@ -142,8 +142,8 @@
     },
     {
       "path": "tests/test_safe_read_capabilities.py",
-      "sha256": "93daf529e4fef422aaaa4798a9f2eb42b1936396c78c561447bd0c940a55b625",
-      "bytes": 6312
+      "sha256": "0158c4d4453551c83ad9522dc85be22ea718422ad3767eb6af7a263e8a79fd6b",
+      "bytes": 6576
     }
   ]
 }
