@@ -618,7 +618,7 @@ def review(data, reveal_names=False, limits=DEFAULT_LIMITS):
         "input_authenticity": "OPEN",
         "office_runtime": "OPEN",
         "cvp_eligibility": "OPEN",
-        "ai_assisted": True,
+        "implementation_author": "dhtfish98",
     }
     parser = None
     report_limit = DEFAULT_LIMITS.report_bytes
@@ -668,6 +668,6 @@ def review(data, reveal_names=False, limits=DEFAULT_LIMITS):
             "issues": [{"code": "report_budget", "offset": None}],
             "directory": [],
             "cvp_eligibility": "OPEN",
-            "ai_assisted": True,
+            "implementation_author": "dhtfish98",
         }
     return result

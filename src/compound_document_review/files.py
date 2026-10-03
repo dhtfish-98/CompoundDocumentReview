@@ -8,6 +8,7 @@ from .model import DEFAULT_LIMITS, Issue
 
 
 def read_local(path):
+    dir_fd_support = getattr(os, "supports_dir_fd", None)
     if type(path) is not str or "\0" in path:
         raise Issue("file_path_input")
     try:
@@ -17,10 +18,12 @@ def read_local(path):
     if len(encoded) > 8192:
         raise Issue("file_path_input")
     if (
-        not hasattr(os, "O_NOFOLLOW")
-        or not hasattr(os, "O_DIRECTORY")
-        or not hasattr(os, "O_NONBLOCK")
-        or os.open not in os.supports_dir_fd
+        any(
+            type(getattr(os, name, None)) is not int or getattr(os, name, None) <= 0
+            for name in ("O_NOFOLLOW", "O_DIRECTORY", "O_NONBLOCK")
+        )
+        or type(dir_fd_support) not in (set, frozenset)
+        or os.open not in dir_fd_support
     ):
         raise Issue("safe_file_platform_not_supported")
     absolute = path.startswith("/")

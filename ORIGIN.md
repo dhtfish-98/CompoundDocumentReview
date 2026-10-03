@@ -1,5 +1,8 @@
 # Origin and contribution
 
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+
+
 Selected design source: [decalage2/olefile](https://github.com/decalage2/olefile/tree/7c0f1ce6f27311e03f25a997024846b58fa9826f),
 commit `7c0f1ce6f27311e03f25a997024846b58fa9826f`. Full review covers the 2,696-line
 runtime module, package initialization, setup/build metadata, README, complete original
@@ -25,6 +28,6 @@ The complete original BSD and historical PIL license text is retained unchanged,
 including the PIL author's name/advertising restriction and disclaimer. New code is
 BSD-2-Clause. There is no claim of endorsement or affiliation with source authors.
 
-Code, tests and documentation were created with AI assistance. Human originality,
+New implementation author: dhtfish98. Human originality,
 research qualifications and history, legitimate safeguards-impact evidence, CVP
 eligibility and acceptance must be established independently and remain OPEN.

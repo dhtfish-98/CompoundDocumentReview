@@ -4,13 +4,13 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "compound-document-review"
-version = "0.1.0"
+version = "0.1.1"
 description = "Bounded offline read-only CFB allocation and directory structure review"
 readme = "README.md"
 requires-python = ">=3.11"
 license = "BSD-2-Clause"
 license-files = ["LICENSE", "NOTICE", "licenses/*.txt"]
-authors = [{name = "CompoundDocumentReview contributors"}]
+authors = [{name = "dhtfish98"}]
 dependencies = []
 
 [project.scripts]

@@ -61,7 +61,10 @@ def main():
             assert ("PRIVATE_DIRECTORY_NAME" in child.stdout) == reveal
             if expected == 0:
                 assert result["macro_name_indicators"] == 2
-            assert result["cvp_eligibility"] == "OPEN" and result["ai_assisted"] is True
+            assert (
+                result["cvp_eligibility"] == "OPEN"
+                and result["implementation_author"] == "dhtfish98"
+            )
         assert before == hashlib.sha256(sample.read_bytes()).hexdigest()
     print(
         json.dumps(

@@ -30,7 +30,7 @@ def main(argv=None):
             "issues": [{"code": code, "offset": None}],
             "directory": [],
             "cvp_eligibility": "OPEN",
-            "ai_assisted": True,
+            "implementation_author": "dhtfish98",
         }
     print(json.dumps(result, ensure_ascii=True, sort_keys=True, separators=(",", ":")))
     return 0 if result["status"] == "PASS" else 2

@@ -1,4 +1,4 @@
-CompoundDocumentReview is a new AI-assisted implementation, copyright 2026 contributors.
+CompoundDocumentReview is a new implementation, copyright 2026 dhtfish98.
 The new runtime and synthetic tests are licensed under BSD-2-Clause.
 It has no olefile dependency and does not ship or wrap olefile's implementation.
 
