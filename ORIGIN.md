@@ -1,6 +1,6 @@
 # Origin and contribution
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.1**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
 
 
 Selected design source: [decalage2/olefile](https://github.com/decalage2/olefile/tree/7c0f1ce6f27311e03f25a997024846b58fa9826f),
@@ -24,9 +24,9 @@ A test-only fixed-source oracle verifies its source before import and compares k
 synthetic directory/size/time/offset facts and harmless stream bytes against new extents.
 The public runtime never performs that payload comparison or imports the oracle.
 
-The complete original BSD and historical PIL license text is retained unchanged,
-including the PIL author's name/advertising restriction and disclaimer. New code is
-BSD-2-Clause. There is no claim of endorsement or affiliation with source authors.
+olefile/PIL implementation and samples are not bundled; their separate reference
+license copy is omitted. New code is BSD-2-Clause. Fixed-source tests obtain the
+original implementation separately. There is no claim of original-source endorsement.
 
 New implementation author: dhtfish98. Human originality,
 research qualifications and history, legitimate safeguards-impact evidence, CVP

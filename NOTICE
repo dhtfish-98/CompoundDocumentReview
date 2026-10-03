@@ -1,21 +1,7 @@
-CompoundDocumentReview is a new implementation, copyright 2026 dhtfish98.
-The new runtime and synthetic tests are licensed under BSD-2-Clause.
-It has no olefile dependency and does not ship or wrap olefile's implementation.
+CompoundDocumentReview
+Copyright 2026 dhtfish98. New finite CFB structural implementation, BSD-2-Clause.
 
-Design reference: decalage2/olefile, fixed commit
-7c0f1ce6f27311e03f25a997024846b58fa9826f.
-The entire original two-part license is retained unchanged in
-licenses/olefile-BSD-and-PIL.txt, including these notices:
-olefile (formerly OleFileIO_PL) is copyright (c) 2005-2023 Philippe Lagadec
-(https://www.decalage.info)
-All rights reserved.
-The Python Imaging Library (PIL) is
-- Copyright (c) 1997-2009 by Secret Labs AB
-- Copyright (c) 1995-2009 by Fredrik Lundh
-The preserved original contains both full BSD redistribution/disclaimer terms and
-full PIL permission, attribution, advertising/name restriction and disclaimer terms.
-No endorsement or affiliation with those authors is claimed.
-
-Trusted local artifact verification scaffolding was adapted from the shared parent
-engineering helper; it is separate from public parsing and never examines untrusted
-input archives as a product feature. New parser and test sources were fully reviewed.
+Design reference: decalage2/olefile at
+7c0f1ce6f27311e03f25a997024846b58fa9826f. No olefile/PIL implementation,
+original test fixture or documentation is distributed. Synthetic fixed-source
+differential tests import separately supplied original source only.
