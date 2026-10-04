@@ -47,7 +47,7 @@ Office automation, object activation, password handling, network retrieval or pr
 value decoder. Source extents describe payload positions without returning bytes.
 
 See [DEFENSIVE_SCOPE.md](<DEFENSIVE_SCOPE.md>), [VALIDATION.md](<VALIDATION.md>), and
-[SOURCE_AUDIT.json](<../SOURCE_AUDIT.json>) for the finite profile and reproducible evidence.
+[SOURCE_AUDIT.json](<SOURCE_AUDIT.json>) for the finite profile and reproducible evidence.
 Names, CLSIDs and presence indicators cannot authenticate the file or its contents.
 
 Safe file input requires positive integer `O_NOFOLLOW`, `O_DIRECTORY` and `O_NONBLOCK` flags and the directory-relative operations used by this reader. A missing, zero or invalid capability returns `OPEN` with `safe_file_platform_not_supported` before input is opened. The supported and tested file-reader platforms are macOS and Linux; native Windows file reading is not validated by these checks.

@@ -18,7 +18,7 @@ def main():
     arguments = argparse.ArgumentParser()
     arguments.add_argument("source", type=Path)
     args = arguments.parse_args()
-    audit = json.loads((ROOT / "SOURCE_AUDIT.json").read_text())
+    audit = json.loads((ROOT / "项目文档/SOURCE_AUDIT.json").read_text())
     identities = {}
     for row in audit["selected_full_files"]:
         path = args.source / row["path"]
