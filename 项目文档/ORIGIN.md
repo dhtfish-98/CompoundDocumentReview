@@ -1,6 +1,6 @@
 # Origin and contribution
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
 
 
 Selected design source: [decalage2/olefile](https://github.com/decalage2/olefile/tree/7c0f1ce6f27311e03f25a997024846b58fa9826f),

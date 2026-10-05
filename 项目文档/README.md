@@ -2,7 +2,7 @@
 
 # CompoundDocumentReview
 
-Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.2**. Upstream authors and reused components retain their original attribution.
+Current implementation author and maintainer: **dhtfish98**. Current package version: **0.1.3**. Upstream authors and reused components retain their original attribution.
 
 
 A bounded, read-only Python library and CLI for actual CFB/OLE compound file
@@ -23,7 +23,7 @@ Python 3.11+ and POSIX no-follow directory-relative file access; no runtime depe
 Install a locally built wheel:
 
 ```sh
-pip install compound_document_review-0.1.2-py3-none-any.whl
+pip install compound_document_review-0.1.3-py3-none-any.whl
 compound-document-review /trusted/local/document.cfb
 ```
 
